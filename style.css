@@ -83,3 +83,22 @@ button:hover {
     font-family: '#d3689e', sans-serif;
  
 }
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#vaciar-carrito {
+    background-color: #dc3545;
+}
+
+#vaciar-carrito:hover {
+    background-color: #c82333;
+}

@@ -8,7 +8,17 @@
 </head>
 <body>
     <header>
+
+       <h3>Snack Bar</h3>
+       <div class="busqueda">
+        <input type="text" placeholder="Buscar producto..." class="campo-busqueda">
+        <img src="busqueda-de-lupa (1).png" alt="Buscar" class="icono-lupa">
+    </div>
+
+      
+
        Snack Bar
+
     </header>
 
     <h1>Tienda de Comida</h1>
@@ -61,9 +71,19 @@
         
     </div>
     <div id="carrito">
+
+        <h2> Carrito de compras
+            <img class="i-carrito" src="carrito-de-compras.png" alt="">
+        </h2>
+        <p>Total: $<span id="total">0</span></p>
+        <button onclick="comprar()">Comprar</button>
+        <button id="vaciar-carrito"> vaciar carrito</button>
+
+
         <h2>Carrito</h2>
         <p>Total: $<span id="total">0</span></p>
         <button onclick="comprar()">Comprar</button>
+
     </div>
     <script src="script.js"></script>
 </body>

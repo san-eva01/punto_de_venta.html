@@ -83,3 +83,58 @@ button:hover {
     font-family: '#d3689e', sans-serif;
  
 }
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#vaciar-carrito {
+    background-color: #dc3545;
+}
+
+#vaciar-carrito:hover {
+    background-color: #c82333;
+}
+
+.i-carrito{
+ width: 100px;
+ height: auto;
+
+}
+
+.busqueda {
+    display: flex; 
+    align-items: center; 
+    border: 1px solid #ccc; 
+    border-radius: 20px; 
+    padding: 5px 10px; 
+    background-color: #f9f9f9; 
+}
+
+
+.campo-busqueda {
+    flex: 1; 
+    border: none; 
+    outline: none; 
+    padding: 5px; 
+    background-color: transparent; 
+    margin-right: 35px;
+}
+
+
+.icono-lupa {
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer; 
+}
+h3{
+    margin: 0; 
+    font-size: 24px; 
+}

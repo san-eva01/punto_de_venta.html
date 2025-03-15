@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto de Venta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       Snack Bar
+    </header>
+
+    <h1>Tienda de Comida</h1>
+    <div id="productos">
+        <div class="producto">
+            <img src="hamburger.webp" alt="Hamburguesa">
+            <p>Hamburguesa - $50</p>
+            <button onclick="agregarAlCarrito(50)">+</button>
+        </div>
+        <div class="producto">
+            <img src="pizza.webp" alt="Pizza">
+            <p>Pizza - $80</p>
+            <button onclick="agregarAlCarrito(80)">+</button>
+        </div>
+        <div class="producto">
+            <img src="coca.webp" alt="Refresco">
+            <p>Refresco - $20</p>
+            <button onclick="agregarAlCarrito(20)">+</button>
+        </div>
+        <div class="producto">
+            <img src="agua.webp" alt="Agua">
+            <p>Agua - $15</p>
+            <button onclick="agregarAlCarrito(15)">+</button>
+        </div>
+        <div class="producto">
+            <img src="yogurt.webp" alt="Yogurt">
+            <p>Yogurt- $30</p>
+            <button onclick="agregarAlCarrito(30)">+</button>
+        </div>
+        <div class="producto">
+            <img src="electro.png" alt="electro">
+            <p>Suero - $30</p>
+            <button onclick="agregarAlCarrito(30)">+</button>
+        </div>
+        <div class="producto">
+            <img src="galletas.png" alt="galletas">
+            <p>Galletas - $30</p>
+            <button onclick="agregarAlCarrito(30)">+</button>
+        </div>
+        <div class="producto">
+            <img src="mms.webp" alt="mms">
+            <p>M&M's - $20</p>
+            <button onclick="agregarAlCarrito(20)">+</button>
+        </div>
+        <div class="producto">
+            <img src="pringles.webp" alt="Pringles">
+            <p>Pringles - $60</p>
+            <button onclick="agregarAlCarrito(60)">+</button>
+        </div>
+        
+    </div>
+    <div id="carrito">
+        <h2>Carrito</h2>
+        <p>Total: $<span id="total">0</span></p>
+        <button onclick="comprar()">Comprar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

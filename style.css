@@ -102,3 +102,9 @@ button:hover {
 #vaciar-carrito:hover {
     background-color: #c82333;
 }
+
+.i-carrito{
+ width: 100px;
+ height: auto;
+
+}
